@@ -63,7 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\firstClass.cs" />
+    <Compile Include="Assets\scripts\startBehavior.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/uvu2019fall/scripting/repos/Scripting-Random/project1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
