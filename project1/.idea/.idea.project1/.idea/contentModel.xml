@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="scripts" t="Include">
           <e p="player.cs" t="Include" />
+          <e p="point move.cs" t="Include" />
           <e p="startBehavior.cs" t="Include" />
         </e>
       </e>

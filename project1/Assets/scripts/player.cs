@@ -1,14 +1,16 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using JetBrains.Annotations;
 using UnityEngine;
+using Random = System.Random;
 
 public class player : MonoBehaviour
 {
     private int moveSpeed=(1);//players move speed
     private bool bump;//are you currently touching a wall? yes or no
-    //public int score = 0;
+    public int score = 0;
     private void Start()
     {
         transform.position = new Vector3(0, 0, 0);//start in the center each time
@@ -27,7 +29,7 @@ public class player : MonoBehaviour
         if (Input.GetKey("down") || Input.GetKey("s")) {
             transform.position += new Vector3(+0, -moveSpeed, +0);
         }
-        
+        print(score);
     }
     
     private void OnTriggerExit2D(Collider2D other)
@@ -44,9 +46,9 @@ public class player : MonoBehaviour
             moveSpeed = -1;//move back out of the wall
         }
 
-       /* if (other.gameObject.name=="point")
+        if (other.gameObject.name=="point")
         {
             score += 1;
-        }*/
+        }
     }
 }
