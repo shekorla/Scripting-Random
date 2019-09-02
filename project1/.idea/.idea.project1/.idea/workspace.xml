@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/point move.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/startBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/player.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -20,6 +21,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/firstClass.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/startBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/point move.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/player.cs" />
       </list>
     </option>
@@ -81,7 +83,7 @@
       <workItem from="1567112790245" duration="1917000" />
       <workItem from="1567201102448" duration="5778000" />
       <workItem from="1567377257400" duration="2865000" />
-      <workItem from="1567383717583" duration="1599000" />
+      <workItem from="1567383717583" duration="2574000" />
     </task>
     <servers />
   </component>
