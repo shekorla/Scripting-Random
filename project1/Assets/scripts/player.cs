@@ -8,7 +8,7 @@ using Random = System.Random;
 
 public class player : MonoBehaviour
 {
-    private int moveSpeed=(1);//players move speed
+    public float moveSpeed=1;//players move speed floats can be 5.5
     private bool bump;//are you currently touching a wall? yes or no
     public int score = 0;
     private void Start()
@@ -29,17 +29,17 @@ public class player : MonoBehaviour
         if (Input.GetKey("down") || Input.GetKey("s")) {
             transform.position += new Vector3(+0, -moveSpeed, +0);
         }
-        print(score);
+        
     }
     
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.name=="wall")
         {
             moveSpeed=1;//move normal once you leave the wall
         }
     }
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name=="wall")
         {
@@ -49,6 +49,7 @@ public class player : MonoBehaviour
         if (other.gameObject.name=="point")
         {
             score += 1;
+            print(score);
         }
     }
 }

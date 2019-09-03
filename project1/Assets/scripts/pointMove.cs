@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 using Random = System.Random;
 
-public class pointmove : MonoBehaviour
+public class pointMove : MonoBehaviour
 {
     private int topLimit = 7;
     private int bottLimit = -8;
@@ -15,6 +16,7 @@ public class pointmove : MonoBehaviour
         if (other.gameObject.name=="player")
         {
             //transform.position=new Vector3(Random.Range(leftLimit,rightLimit),Random.Range(bottLimit,topLimit),0);
+            
         }
     }
 }
