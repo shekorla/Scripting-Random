@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 594771196}
   - component: {fileID: 594771195}
   m_Layer: 0
-  m_Name: wall
+  m_Name: lwall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -292,8 +292,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594771194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.681, y: 0.309, z: 12.843169}
-  m_LocalScale: {x: 1.9798317, y: -20.416212, z: 1}
+  m_LocalPosition: {x: -25.97, y: 0.309, z: 0}
+  m_LocalScale: {x: 3.4053106, y: -20.416212, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -494,6 +494,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 766497571}
+        m_MethodName: set_useGravity
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!65 &818699315
@@ -597,7 +608,7 @@ GameObject:
   - component: {fileID: 1433092851}
   - component: {fileID: 1433092850}
   m_Layer: 0
-  m_Name: wall
+  m_Name: rwall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -669,8 +680,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433092849}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26.799, y: 0.032, z: 12.843169}
-  m_LocalScale: {x: 2.0528464, y: 20.564, z: 1}
+  m_LocalPosition: {x: 26.09, y: 0.032, z: 0}
+  m_LocalScale: {x: 3.4933288, y: 20.564, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -5386,7 +5397,7 @@ GameObject:
   - component: {fileID: 1628868887}
   - component: {fileID: 1628868886}
   m_Layer: 0
-  m_Name: wall
+  m_Name: twall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5458,7 +5469,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628868885}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.082, y: 10.091, z: 12.843169}
+  m_LocalPosition: {x: 0.082, y: 10.091, z: 0}
   m_LocalScale: {x: 55.482338, y: -2.14305, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5568,7 +5579,7 @@ GameObject:
   - component: {fileID: 1838226789}
   - component: {fileID: 1838226788}
   m_Layer: 0
-  m_Name: wall
+  m_Name: bwall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5640,8 +5651,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838226787}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.082, y: -9.75, z: 12.843169}
-  m_LocalScale: {x: 55.482338, y: 1, z: 1}
+  m_LocalPosition: {x: 0.082, y: -10.41, z: 0}
+  m_LocalScale: {x: 55.482338, y: 2.9792001, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -5656,7 +5667,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1966155674}
   - component: {fileID: 1966155672}
-  - component: {fileID: 1966155675}
   - component: {fileID: 1966155676}
   - component: {fileID: 1966155673}
   m_Layer: 0
@@ -5727,24 +5737,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966155671}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.87, y: 4.85, z: -0.6272107}
+  m_LocalPosition: {x: 11.87, y: 4.85, z: 0}
   m_LocalScale: {x: 1.691, y: 1.691, z: 1.691}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1966155675
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1966155671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2352ffef572356941a298547aba0f293, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!33 &1966155676
 MeshFilter:
   m_ObjectHideFlags: 0

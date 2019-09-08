@@ -11,11 +11,11 @@ public class pointMove : MonoBehaviour
     private int bottLimit = -8;
     private int leftLimit = -22;
     private int rightLimit = 23;
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.name=="player")
         {
-            //transform.position=new Vector3(Random.Range(leftLimit,rightLimit),Random.Range(bottLimit,topLimit),0);
+           // transform.position=new Vector3(Random(leftLimit,rightLimit),Random(bottLimit,topLimit),0);
             
         }
     }
