@@ -75,6 +75,7 @@ public class player : MonoBehaviour
         {
             score += 1;
             print(score);
+            other.transform.position=new Vector3(UnityEngine.Random.Range(-23,23),UnityEngine.Random.Range(-7,7),0);
         }
     }
 }

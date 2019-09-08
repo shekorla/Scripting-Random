@@ -23,8 +23,8 @@
         <option value="$PROJECT_DIR$/Assets/scripts/startBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/point move.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/varsClass.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/pointMove.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/player.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/pointMove.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +87,7 @@
       <workItem from="1567377257400" duration="2865000" />
       <workItem from="1567383717583" duration="2574000" />
       <workItem from="1567542916083" duration="3199000" />
-      <workItem from="1567979577238" duration="1671000" />
+      <workItem from="1567979577238" duration="2307000" />
     </task>
     <servers />
   </component>

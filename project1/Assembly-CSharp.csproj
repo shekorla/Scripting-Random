@@ -58,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\player.cs" />
-    <Compile Include="Assets\scripts\pointMove.cs" />
     <Compile Include="Assets\scripts\startBehavior.cs" />
     <Compile Include="Assets\scripts\varsClass.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
