@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Security.Cryptography;
-using JetBrains.Annotations;
-using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
-using Random = System.Random;
 
 public class player : MonoBehaviour
 {
@@ -15,8 +8,11 @@ public class player : MonoBehaviour
     public int score = 0;
     private bool bump = false;
     public UnityEvent Event;
+    private Text text;
+
     private void Start()
     {
+        text = GameObject.Find("scoreboard").GetComponent<Text>();
         transform.position = new Vector3(0, 0, 0);//start in the center each time
     }
     private void Update()
@@ -78,6 +74,7 @@ public class player : MonoBehaviour
         if (other.gameObject.name=="point")
         {
             score += 1;
+            text.text = "Score:" + score;
             Event.Invoke();
             other.transform.position=new Vector3(UnityEngine.Random.Range(-23,23),UnityEngine.Random.Range(-7,7),0);
         }
