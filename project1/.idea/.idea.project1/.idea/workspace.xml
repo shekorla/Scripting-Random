@@ -12,11 +12,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/varsClass.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/startBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/varsClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/startBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/enemyAction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -26,9 +26,10 @@
         <option value="$PROJECT_DIR$/Assets/scripts/point move.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/varsClass.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/pointMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/player.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/TriggerEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/enemyAction.cs" />
       </list>
     </option>
   </component>
@@ -95,6 +96,7 @@
       <workItem from="1568068296722" duration="1198000" />
       <workItem from="1568147871192" duration="2954000" />
       <workItem from="1568151045044" duration="623000" />
+      <workItem from="1568167191155" duration="2722000" />
     </task>
     <servers />
   </component>
@@ -154,8 +156,8 @@
     <state width="1340" height="328" key="GridCell.Tab.3.right/1920.1080" />
     <state x="425" y="160" key="RiderGenerateDialog" />
     <state x="425" y="160" key="RiderGenerateDialog/2736.1824" />
-    <state x="357" y="193" key="search.everywhere.popup" />
-    <state x="357" y="193" key="search.everywhere.popup/2736.1824" />
+    <state x="357" y="193" width="672" height="678" key="search.everywhere.popup" />
+    <state x="357" y="193" width="672" height="678" key="search.everywhere.popup/2736.1824" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
