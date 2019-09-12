@@ -16,6 +16,7 @@ public class enemyAction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        start.Invoke();
         gameObject.transform.position += transform.forward*speed;
     }
 }
