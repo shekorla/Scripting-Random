@@ -5296,7 +5296,7 @@ GameObject:
   - component: {fileID: 594771195}
   m_Layer: 0
   m_Name: lwall
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -5922,7 +5922,7 @@ GameObject:
   - component: {fileID: 1433092850}
   m_Layer: 0
   m_Name: rwall
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10711,7 +10711,7 @@ GameObject:
   - component: {fileID: 1628868886}
   m_Layer: 0
   m_Name: twall
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10922,7 +10922,7 @@ GameObject:
   - component: {fileID: 1838226788}
   m_Layer: 0
   m_Name: bwall
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
