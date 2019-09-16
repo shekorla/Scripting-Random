@@ -4,9 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class varsClass : MonoBehaviour
+public class bullet : MonoBehaviour
 {
-    public float floatValue = 80;
+    private float floatValue = 50;
+    private float timer = 50;
     public UnityEvent Event;
 
     private void Start()
@@ -19,26 +20,25 @@ public class varsClass : MonoBehaviour
     {
         if (other.name!="Player")
         {
-            Event.Invoke();
+            Destroy(gameObject);
             print("KaPow!");
         }
-        
     }
 
     private void Update()
     {
-        if (gameObject.name != "bullet")
+        if (gameObject.name != "bullet")// if my name is bullet clone
         {
-            gameObject.transform.position += transform.forward;
-            if (floatValue > 0)
+            gameObject.transform.position += transform.forward*.5f;
+            if (timer > 0)
             {
-                floatValue += -1;
+                timer += -1;
             }
             else
             {
-                Event.Invoke();
-                floatValue = 80;
+                timer = floatValue;
                 print("Sploosh!");
+                Destroy(gameObject);
             }
         }
     }

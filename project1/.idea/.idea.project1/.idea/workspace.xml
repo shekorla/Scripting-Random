@@ -13,7 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/varsClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/fire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/startBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/player.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,8 +35,9 @@
         <option value="$PROJECT_DIR$/Assets/scripts/particleControl.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/mouseEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/player.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/fire.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/varsClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/fire.cs" />
       </list>
     </option>
   </component>
@@ -74,10 +75,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="15272">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="4992">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15272" />
+      <option name="pid" value="4992" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -106,6 +107,8 @@
       <workItem from="1568167191155" duration="2722000" />
       <workItem from="1568321365292" duration="3339000" />
       <workItem from="1568669834869" duration="3183000" />
+      <workItem from="1568673258143" duration="1915000" />
+      <workItem from="1568675355142" duration="185000" />
     </task>
     <servers />
   </component>
@@ -131,38 +134,54 @@
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1340" height="328" key="GridCell.Tab.0.bottom" />
+    <state width="1210" height="262" key="GridCell.Tab.0.bottom" />
     <state width="1340" height="328" key="GridCell.Tab.0.bottom/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.0.center" />
+    <state width="1210" height="262" key="GridCell.Tab.0.bottom/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.0.center" />
     <state width="1340" height="328" key="GridCell.Tab.0.center/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.0.left" />
+    <state width="1210" height="262" key="GridCell.Tab.0.center/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.0.left" />
     <state width="1340" height="328" key="GridCell.Tab.0.left/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.0.right" />
+    <state width="1210" height="262" key="GridCell.Tab.0.left/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.0.right" />
     <state width="1340" height="328" key="GridCell.Tab.0.right/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.1.bottom" />
+    <state width="1210" height="262" key="GridCell.Tab.0.right/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.1.bottom" />
     <state width="1340" height="328" key="GridCell.Tab.1.bottom/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.1.center" />
+    <state width="1210" height="262" key="GridCell.Tab.1.bottom/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.1.center" />
     <state width="1340" height="328" key="GridCell.Tab.1.center/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.1.left" />
+    <state width="1210" height="262" key="GridCell.Tab.1.center/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.1.left" />
     <state width="1340" height="328" key="GridCell.Tab.1.left/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.1.right" />
+    <state width="1210" height="262" key="GridCell.Tab.1.left/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.1.right" />
     <state width="1340" height="328" key="GridCell.Tab.1.right/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.2.bottom" />
+    <state width="1210" height="262" key="GridCell.Tab.1.right/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.2.bottom" />
     <state width="1340" height="328" key="GridCell.Tab.2.bottom/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.2.center" />
+    <state width="1210" height="262" key="GridCell.Tab.2.bottom/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.2.center" />
     <state width="1340" height="328" key="GridCell.Tab.2.center/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.2.left" />
+    <state width="1210" height="262" key="GridCell.Tab.2.center/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.2.left" />
     <state width="1340" height="328" key="GridCell.Tab.2.left/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.2.right" />
+    <state width="1210" height="262" key="GridCell.Tab.2.left/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.2.right" />
     <state width="1340" height="328" key="GridCell.Tab.2.right/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.3.bottom" />
+    <state width="1210" height="262" key="GridCell.Tab.2.right/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.3.bottom" />
     <state width="1340" height="328" key="GridCell.Tab.3.bottom/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.3.center" />
+    <state width="1210" height="262" key="GridCell.Tab.3.bottom/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.3.center" />
     <state width="1340" height="328" key="GridCell.Tab.3.center/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.3.left" />
+    <state width="1210" height="262" key="GridCell.Tab.3.center/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.3.left" />
     <state width="1340" height="328" key="GridCell.Tab.3.left/1920.1080" />
-    <state width="1340" height="328" key="GridCell.Tab.3.right" />
+    <state width="1210" height="262" key="GridCell.Tab.3.left/2736.1824" />
+    <state width="1210" height="262" key="GridCell.Tab.3.right" />
     <state width="1340" height="328" key="GridCell.Tab.3.right/1920.1080" />
+    <state width="1210" height="262" key="GridCell.Tab.3.right/2736.1824" />
     <state x="425" y="160" key="RiderGenerateDialog" />
     <state x="425" y="160" key="RiderGenerateDialog/2736.1824" />
     <state x="357" y="193" width="672" height="678" key="search.everywhere.popup" />

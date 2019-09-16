@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\scripts\bullet.cs" />
     <Compile Include="Assets\scripts\catClass.cs" />
     <Compile Include="Assets\scripts\dogClass.cs" />
     <Compile Include="Assets\scripts\enemyAction.cs" />
@@ -67,7 +68,6 @@
     <Compile Include="Assets\scripts\player.cs" />
     <Compile Include="Assets\scripts\startBehavior.cs" />
     <Compile Include="Assets\scripts\TriggerEvents.cs" />
-    <Compile Include="Assets\scripts\varsClass.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/pinkp/OneDrive/Documents/gitHubRepos/Scripting-Random/project1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
