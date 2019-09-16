@@ -6,27 +6,40 @@ using UnityEngine.Events;
 
 public class varsClass : MonoBehaviour
 {
-    public float floatValue=5.5f;
-    public int intValue = 20;
-    public string stringValue = "bob";
-
-    public int firePower;
+    public float floatValue = 80;
     public UnityEvent Event;
+
+    private void Start()
+    {
+        gameObject.SetActive(true);
+        gameObject.transform.LookAt(Input.mousePosition);
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        Event.Invoke();
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
+        if (other.name!="Player")
+        {
+            Event.Invoke();
+            print("KaPow!");
+        }
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (gameObject.name != "bullet")
+        {
+            gameObject.transform.position += transform.forward;
+            if (floatValue > 0)
+            {
+                floatValue += -1;
+            }
+            else
+            {
+                Event.Invoke();
+                floatValue = 80;
+                print("Sploosh!");
+            }
+        }
     }
 }

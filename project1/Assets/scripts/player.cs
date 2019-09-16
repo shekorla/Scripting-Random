@@ -1,10 +1,11 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class player : MonoBehaviour
 {
-    public float moveSpeed=1;//players move speed floats can be 5.5
+    public float moveSpeed = 1; //players move speed floats can be 5.5
     public int score = 0;
     private bool bump = false;
     public UnityEvent Event;
@@ -13,8 +14,9 @@ public class player : MonoBehaviour
     private void Start()
     {
         text = GameObject.Find("scoreboard").GetComponent<Text>();
-        transform.position = new Vector3(0, 0, 0);//start in the center each time
+        transform.position = new Vector3(0, 0, 0); //start in the center each time
     }
+
     private void Update()
     {
         if (!bump)
@@ -40,43 +42,51 @@ public class player : MonoBehaviour
             }
         }
     }
-    
+
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name=="bwall"||other.gameObject.name=="twall"||other.gameObject.name=="lwall"||other.gameObject.name=="rwall")
+        if (other.gameObject.name == "bwall" || other.gameObject.name == "twall" || other.gameObject.name == "lwall" ||
+            other.gameObject.name == "rwall")
         {
-            moveSpeed=1;//move normal once you leave the wall
+            moveSpeed = 1; //move normal once you leave the wall
             bump = false;
         }
     }
+
     private void OnTriggerEnter(Collider other)
     {
-        
-        if (other.gameObject.name=="bwall")
+
+        if (other.gameObject.name == "bwall")
         {
             bump = true;
-            transform.position += new Vector3(+0, +moveSpeed+moveSpeed, +0);
-        }
-        if (other.gameObject.name=="twall")
-        {
-            bump = true;
-            transform.position += new Vector3(+0, -moveSpeed-moveSpeed, +0);
-        }if (other.gameObject.name=="lwall")
-        {
-            bump = true;
-            transform.position += new Vector3(+moveSpeed+moveSpeed, +0, +0);
-        }if (other.gameObject.name=="rwall")
-        {
-            bump = true;
-            transform.position += new Vector3(-moveSpeed-moveSpeed, +0, +0);
+            transform.position += new Vector3(+0, +moveSpeed + moveSpeed, +0);
         }
 
-        if (other.gameObject.name=="point")
+        if (other.gameObject.name == "twall")
+        {
+            bump = true;
+            transform.position += new Vector3(+0, -moveSpeed - moveSpeed, +0);
+        }
+
+        if (other.gameObject.name == "lwall")
+        {
+            bump = true;
+            transform.position += new Vector3(+moveSpeed + moveSpeed, +0, +0);
+        }
+
+        if (other.gameObject.name == "rwall")
+        {
+            bump = true;
+            transform.position += new Vector3(-moveSpeed - moveSpeed, +0, +0);
+        }
+
+        if (other.gameObject.name == "point")
         {
             score += 1;
             text.text = "Score:" + score;
             Event.Invoke();
-            other.transform.position=new Vector3(UnityEngine.Random.Range(-23,23),UnityEngine.Random.Range(-7,7),0);
+            other.transform.position =
+                new Vector3(UnityEngine.Random.Range(-23, 23), UnityEngine.Random.Range(-7, 7), 0);
         }
     }
 }
