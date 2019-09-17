@@ -6,8 +6,7 @@ using UnityEngine.Events;
 public class enemyAction : MonoBehaviour
 {
     public UnityEvent start;
-
-    public float speed = .5f;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +17,6 @@ public class enemyAction : MonoBehaviour
     void Update()
     {
         start.Invoke();
-        gameObject.transform.position += transform.forward*speed;
+        gameObject.transform.position += transform.forward*Time.deltaTime;
     }
 }

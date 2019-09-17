@@ -7,9 +7,10 @@ public class player : MonoBehaviour
 {
     public float moveSpeed = 1; //players move speed floats can be 5.5
     public int score = 0;
-    private bool bump = false;
     public UnityEvent Event;
     private Text text;
+    private Vector3 move;
+    public CharacterController controller;
 
     private void Start()
     {
@@ -19,66 +20,15 @@ public class player : MonoBehaviour
 
     private void Update()
     {
-        if (!bump)
-        {
-            if (Input.GetKey("up") || Input.GetKey("w"))
-            {
-                transform.position += new Vector3(+0, +moveSpeed, +0);
-            }
-
-            if (Input.GetKey("left") || Input.GetKey("a"))
-            {
-                transform.position += new Vector3(-moveSpeed, +0, +0);
-            }
-
-            if (Input.GetKey("right") || Input.GetKey("d"))
-            {
-                transform.position += new Vector3(+moveSpeed, +0, +0);
-            }
-
-            if (Input.GetKey("down") || Input.GetKey("s"))
-            {
-                transform.position += new Vector3(+0, -moveSpeed, +0);
-            }
-        }
+        move.x = moveSpeed * Input.GetAxis("Horizontal"); 
+        move.y = moveSpeed * Input.GetAxis("Vertical");
+        controller.Move(move);
+        
     }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.name == "bwall" || other.gameObject.name == "twall" || other.gameObject.name == "lwall" ||
-            other.gameObject.name == "rwall")
-        {
-            moveSpeed = 1; //move normal once you leave the wall
-            bump = false;
-        }
-    }
-
+    
+    
     private void OnTriggerEnter(Collider other)
     {
-
-        if (other.gameObject.name == "bwall")
-        {
-            bump = true;
-            transform.position += new Vector3(+0, +moveSpeed + moveSpeed, +0);
-        }
-
-        if (other.gameObject.name == "twall")
-        {
-            bump = true;
-            transform.position += new Vector3(+0, -moveSpeed - moveSpeed, +0);
-        }
-
-        if (other.gameObject.name == "lwall")
-        {
-            bump = true;
-            transform.position += new Vector3(+moveSpeed + moveSpeed, +0, +0);
-        }
-
-        if (other.gameObject.name == "rwall")
-        {
-            bump = true;
-            transform.position += new Vector3(-moveSpeed - moveSpeed, +0, +0);
-        }
 
         if (other.gameObject.name == "point")
         {

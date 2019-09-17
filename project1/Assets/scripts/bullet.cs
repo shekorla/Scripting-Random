@@ -29,7 +29,7 @@ public class bullet : MonoBehaviour
     {
         if (gameObject.name != "bullet")// if my name is bullet clone
         {
-            gameObject.transform.position += transform.forward*.5f;
+            gameObject.transform.position += transform.forward*Time.deltaTime;
             if (timer > 0)
             {
                 timer += -1;
