@@ -24,6 +24,7 @@ public class player : MonoBehaviour
         move.y = moveSpeed * Input.GetAxis("Vertical");
         controller.Move(move);
         
+
     }
     
     
