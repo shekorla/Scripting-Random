@@ -33,9 +33,9 @@
         <option value="$PROJECT_DIR$/Assets/scripts/varsClass.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/fire.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/enemyAction.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/movement.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/player.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/enemyAction.cs" />
       </list>
     </option>
   </component>
@@ -109,7 +109,7 @@
       <workItem from="1568673258143" duration="1915000" />
       <workItem from="1568675355142" duration="185000" />
       <workItem from="1568752207149" duration="4485000" />
-      <workItem from="1568843857016" duration="608000" />
+      <workItem from="1568843857016" duration="1312000" />
     </task>
     <servers />
   </component>
@@ -185,6 +185,8 @@
     <state width="1210" height="262" key="GridCell.Tab.3.right/2736.1824" />
     <state x="425" y="160" key="RiderGenerateDialog" />
     <state x="425" y="160" key="RiderGenerateDialog/2736.1824" />
+    <state x="327" y="193" key="run.anything.popup" />
+    <state x="327" y="193" key="run.anything.popup/2736.1824" />
     <state x="357" y="193" width="672" height="678" key="search.everywhere.popup" />
     <state x="357" y="193" width="672" height="678" key="search.everywhere.popup/2736.1824" />
   </component>

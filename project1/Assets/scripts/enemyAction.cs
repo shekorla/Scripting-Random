@@ -18,5 +18,6 @@ public class enemyAction : MonoBehaviour
     {
         start.Invoke();
         gameObject.transform.position += transform.forward*Time.deltaTime;
+        transform.rotation=new Quaternion(+0,+0,0,+0);
     }
 }
