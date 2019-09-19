@@ -1,24 +1,25 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
 public class bullet : MonoBehaviour
 {
-    private float floatValue = 100;
-    private float timer = 100;
-    public UnityEvent Event;
+    private float floatValue = 100, timer = 100;
+    public GameObject enemy;
 
     private void Start()
     {
-        gameObject.SetActive(true);
-        gameObject.transform.LookAt(Input.mousePosition);
+        if (gameObject.name != "bullet")
+        {
+            Vector3 enemyLoc=new Vector3(enemy.transform.position.x,enemy.transform.position.y,0);
+            gameObject.transform.LookAt(enemyLoc);
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.name!="Player")
+        print("hi");
+        if (other.name=="Enemy")
         {
             Destroy(gameObject);
             print("KaPow!");
@@ -37,7 +38,7 @@ public class bullet : MonoBehaviour
             else
             {
                 timer = floatValue;
-                print("Sploosh!");
+                //print("Sploosh!");
                 Destroy(gameObject);
             }
         }
