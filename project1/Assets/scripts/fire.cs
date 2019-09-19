@@ -10,6 +10,6 @@ public class fire : MonoBehaviour
         print("bang!");
         bullet.transform.LookAt(Input.mousePosition);
         var position = player.transform.position;
-        Instantiate(bullet, new Vector3(position.x, position.y, position.x),transform.rotation);
+        Instantiate(bullet, new Vector3(position.x, position.y, 0),transform.rotation);
     }
 }

@@ -6,8 +6,8 @@ using UnityEngine.Events;
 
 public class bullet : MonoBehaviour
 {
-    private float floatValue = 50;
-    private float timer = 50;
+    private float floatValue = 100;
+    private float timer = 100;
     public UnityEvent Event;
 
     private void Start()
@@ -29,7 +29,7 @@ public class bullet : MonoBehaviour
     {
         if (gameObject.name != "bullet")// if my name is bullet clone
         {
-            gameObject.transform.position += transform.forward*Time.deltaTime;
+            gameObject.transform.position += 10*Time.deltaTime*transform.forward;
             if (timer > 0)
             {
                 timer += -1;

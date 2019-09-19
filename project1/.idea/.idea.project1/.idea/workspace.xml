@@ -12,10 +12,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/enemyAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/fire.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/enemyAction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -31,11 +32,11 @@
         <option value="$PROJECT_DIR$/Assets/scripts/particleControl.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/mouseEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/varsClass.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/fire.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/movement.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/player.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/enemyAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/fire.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/bullet.cs" />
       </list>
     </option>
   </component>
@@ -110,6 +111,7 @@
       <workItem from="1568675355142" duration="185000" />
       <workItem from="1568752207149" duration="4485000" />
       <workItem from="1568843857016" duration="1773000" />
+      <workItem from="1568925254575" duration="244000" />
     </task>
     <servers />
   </component>
