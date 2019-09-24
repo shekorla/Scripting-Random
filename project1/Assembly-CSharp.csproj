@@ -64,9 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\bullet.cs" />
+    <Compile Include="Assets\scripts\classScripts\applyForce.cs" />
     <Compile Include="Assets\scripts\classScripts\catClass.cs" />
     <Compile Include="Assets\scripts\classScripts\dogClass.cs" />
     <Compile Include="Assets\scripts\classScripts\FloatData.cs" />
+    <Compile Include="Assets\scripts\classScripts\fruit.cs" />
+    <Compile Include="Assets\scripts\classScripts\ifStatements.cs" />
     <Compile Include="Assets\scripts\classScripts\mouseEvents.cs" />
     <Compile Include="Assets\scripts\classScripts\movement.cs" />
     <Compile Include="Assets\scripts\classScripts\particleControl.cs" />

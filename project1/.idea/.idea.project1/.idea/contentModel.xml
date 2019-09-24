@@ -9,9 +9,12 @@
         <e p="scripts" t="Include">
           <e p="bullet.cs" t="Include" />
           <e p="classScripts" t="Include">
+            <e p="applyForce.cs" t="Include" />
             <e p="catClass.cs" t="Include" />
             <e p="dogClass.cs" t="Include" />
             <e p="FloatData.cs" t="Include" />
+            <e p="fruit.cs" t="Include" />
+            <e p="ifStatements.cs" t="Include" />
             <e p="mouseEvents.cs" t="Include" />
             <e p="movement.cs" t="Include" />
             <e p="particleControl.cs" t="Include" />
