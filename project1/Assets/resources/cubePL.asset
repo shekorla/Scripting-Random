@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e487f18613cf1df478ca42f1587be0c0, type: 3}
+  m_Name: cubePL
+  m_EditorClassIdentifier: 
+  intel: 20
+  charis: 7
+  luck: 4
+  stre: 5
+  wis: 12
+  speed: 13
+  pColor: {r: 0.5803922, g: 0.29411766, b: 0.76862746, a: 0}
+  PGameObject: {fileID: 6911147956889565958, guid: 48a3c59e154a5314799af26efddf939a,
+    type: 3}

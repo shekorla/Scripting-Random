@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e487f18613cf1df478ca42f1587be0c0, type: 3}
+  m_Name: cynPL
+  m_EditorClassIdentifier: 
+  intel: 8
+  charis: 20
+  luck: 15
+  stre: 7
+  wis: 5
+  speed: 12
+  pColor: {r: 0.8117647, g: 0.05098041, b: 0.30761424, a: 0}
+  PGameObject: {fileID: 3199225981729070722, guid: f4fc24bc4be46a948a1e8c3b90c09ae2,
+    type: 3}
