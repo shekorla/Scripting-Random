@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\pinkp\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\pinkp\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_project1.748890578.00" t="ExcludeRecursive" />
-    <e p="C:\Users\pinkp\OneDrive\Documents\gitHubRepos\Scripting-Random\project1" t="IncludeRecursive">
+    <e p="C:\Users\10847020\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\10847020\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_project1.-86852965.00" t="ExcludeRecursive" />
+    <e p="E:\uvu2019fall\scripting\repos\Scripting-Random\project1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="scripts" t="Include">
@@ -16,14 +16,17 @@
             <e p="fruit.cs" t="Include" />
             <e p="functions.cs" t="Include" />
             <e p="ifStatements.cs" t="Include" />
+            <e p="intData.cs" t="Include" />
             <e p="mouseEvents.cs" t="Include" />
             <e p="movement.cs" t="Include" />
             <e p="particleControl.cs" t="Include" />
             <e p="startBehavior.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
+            <e p="UITextControl.cs" t="Include" />
           </e>
           <e p="enemyAction.cs" t="Include" />
           <e p="fire.cs" t="Include" />
+          <e p="homeTriggerEvents.cs" t="Include" />
           <e p="player.cs" t="Include" />
           <e p="playerData.cs" t="Include" />
         </e>

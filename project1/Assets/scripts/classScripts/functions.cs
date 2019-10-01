@@ -62,9 +62,9 @@ public class functions : MonoBehaviour
     }
     private ScriptableObject ConfigHWPlayer(ScriptableObject play)
     {
-        print(play);
         var hwPlayer = Instantiate(play);
-        hwPlayer.name = play.name;
+        //hwPlayer.name = play.nameVar;
+        print(play);
         return play;
     }
 }

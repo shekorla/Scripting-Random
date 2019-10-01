@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e487f18613cf1df478ca42f1587be0c0, type: 3}
   m_Name: spherePL
   m_EditorClassIdentifier: 
+  nameVar: 
   intel: 5
   charis: 5
   luck: 15

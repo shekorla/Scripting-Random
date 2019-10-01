@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e487f18613cf1df478ca42f1587be0c0, type: 3}
   m_Name: cubePL
   m_EditorClassIdentifier: 
+  nameVar: 
   intel: 20
   charis: 7
   luck: 4
   stre: 5
   wis: 12
   speed: 13
-  pColor: {r: 0.5803922, g: 0.29411766, b: 0.76862746, a: 0}
+  pColor: {r: 0.49640685, g: 0.29411766, b: 0.76862746, a: 0}
   PGameObject: {fileID: 6911147956889565958, guid: 48a3c59e154a5314799af26efddf939a,
     type: 3}
