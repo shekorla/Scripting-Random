@@ -17,11 +17,13 @@
             <e p="functions.cs" t="Include" />
             <e p="ifStatements.cs" t="Include" />
             <e p="intData.cs" t="Include" />
+            <e p="monoEvents.cs" t="Include" />
             <e p="mouseEvents.cs" t="Include" />
             <e p="movement.cs" t="Include" />
             <e p="particleControl.cs" t="Include" />
             <e p="startBehavior.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
+            <e p="UIimageController.cs" t="Include" />
             <e p="UITextControl.cs" t="Include" />
           </e>
           <e p="enemyAction.cs" t="Include" />

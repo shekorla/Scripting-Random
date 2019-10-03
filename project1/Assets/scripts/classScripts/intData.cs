@@ -11,6 +11,6 @@ public class intData : ScriptableObject
 
     public void resetValue()
     {
-        value = 1;
+        value = 0;
     }
 }
