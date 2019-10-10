@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: yellowSqu
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 2a3e7a8c9faa8224bb32cc4de2cc1c41, type: 3}
-  color: {r: 1, g: 0.83413935, b: 0, a: 1}
+  spriteColor: {r: 0.8113208, g: 0.5875525, b: 0.057404764, a: 1}
   prefab: {fileID: 8058305686701809604, guid: 705e8a61e2668e443bca38783b8a0ae3, type: 3}
+  health: {fileID: 11400000, guid: 971cfe08a485a8340ac3a1fd4b9ffdd3, type: 2}
   weapon: {fileID: 11400000, guid: 95f2f064b3f56ac48bfbb5c659c11ad5, type: 2}
+  shirt: {fileID: 11400000, guid: ac6a8e566991e9d4cbfe6f57f235ef99, type: 2}
+  pants: {fileID: 11400000, guid: 4a7b96a80f6ccde4f8720089da83012a, type: 2}

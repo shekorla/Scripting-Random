@@ -13,5 +13,9 @@ MonoBehaviour:
   m_Name: RedDia
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 31fed8a7db13be54aaa17c3161b294b5, type: 3}
-  color: {r: 1, g: 0, b: 0, a: 1}
+  spriteColor: {r: 0.745283, g: 0.05273228, b: 0.05273228, a: 1}
   prefab: {fileID: 8058305686701809604, guid: 705e8a61e2668e443bca38783b8a0ae3, type: 3}
+  health: {fileID: 0}
+  weapon: {fileID: 11400000, guid: 744969aa8cf419945b02bee95c3a47e5, type: 2}
+  shirt: {fileID: 11400000, guid: ac6a8e566991e9d4cbfe6f57f235ef99, type: 2}
+  pants: {fileID: 11400000, guid: 69e0d064b22934148a73e71dc865c47b, type: 2}

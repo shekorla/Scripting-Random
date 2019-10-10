@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 776b55903b13db74daa4e64b3d7145df, type: 3}
-  m_Name: Sword
+  m_Name: rifle
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 31fed8a7db13be54aaa17c3161b294b5, type: 3}
   spriteColor: {r: 0.9339623, g: 0.7579559, b: 0.039649326, a: 1}
   prefab: {fileID: 7547282188272687148, guid: 9f36d4db34b821147a67fb6c05c18949, type: 3}
-  powerLevel: 10
+  powerLevel: 1000
