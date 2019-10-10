@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e487f18613cf1df478ca42f1587be0c0, type: 3}
   m_Name: Red
   m_EditorClassIdentifier: 
+  prefab: {fileID: 8058305686701809604, guid: 705e8a61e2668e443bca38783b8a0ae3, type: 3}
   nameVar: Red
   intel: 8
   charis: 20
@@ -20,4 +21,5 @@ MonoBehaviour:
   wis: 5
   speed: 12
   pColor: {r: 0.8117647, g: 0.05098041, b: 0.11169691, a: 1}
-  Psprite: {fileID: 21300000, guid: fe41f4db927ec1c44831c59adfc0ea59, type: 3}
+  pSprite: {fileID: 21300000, guid: fe41f4db927ec1c44831c59adfc0ea59, type: 3}
+  xOffset: 4
