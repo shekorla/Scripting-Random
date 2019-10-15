@@ -11,6 +11,7 @@
           <e p="classScripts" t="Include">
             <e p="applyForce.cs" t="Include" />
             <e p="catClass.cs" t="Include" />
+            <e p="CMcontroller.cs" t="Include" />
             <e p="dataScripts" t="Include">
               <e p="clothesData.cs" t="Include" />
               <e p="FloatData.cs" t="Include" />
