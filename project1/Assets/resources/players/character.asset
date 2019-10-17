@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d52ce74e946b30740b952ac56bb3ed78, type: 3}
   m_Name: character
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: c3c0b0bfd7484114b827633288312640, type: 3}
+  sprite: {fileID: 21300000, guid: 388777dbbf51d25489481b400e0a7547, type: 3}
   spriteColor: {r: 1, g: 1, b: 1, a: 1}
-  prefab: {fileID: 8058305686701809604, guid: 705e8a61e2668e443bca38783b8a0ae3, type: 3}
+  prefab: {fileID: 5088115302170755886, guid: 2293941f954f21042b5ec02f5b05300a, type: 3}
   health: {fileID: 11400000, guid: 971cfe08a485a8340ac3a1fd4b9ffdd3, type: 2}
   weapons: []
   shirt: {fileID: 0}
