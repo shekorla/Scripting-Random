@@ -181,19 +181,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
         type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1876512223}
     - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
         type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 1476447848}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: UpdateText
+      objectReference: {fileID: 0}
     - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
         type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: intData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: ede08614882af43478b80677f40b4f0c,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d74852b78f494c4ea29f8b12946f12e, type: 3}
 --- !u!1001 &333293037
@@ -267,22 +278,28 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1669331613}
-    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
-        type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
-        type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
       objectReference: {fileID: 1876512223}
     - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
         type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: UpdateText
       objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: intData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: ede08614882af43478b80677f40b4f0c,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d74852b78f494c4ea29f8b12946f12e, type: 3}
 --- !u!1 &403114906
@@ -842,30 +859,30 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1471375935}
-    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
-        type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
-        type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
       objectReference: {fileID: 1876512223}
     - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
         type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: UpdateText
       objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: intData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: ede08614882af43478b80677f40b4f0c,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d74852b78f494c4ea29f8b12946f12e, type: 3}
---- !u!1 &1005274630 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6524797836119719619, guid: 9d74852b78f494c4ea29f8b12946f12e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1151209260}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1129745845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,41 +1020,30 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1005274630}
-    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
-        type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
-        type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
       objectReference: {fileID: 1876512223}
     - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
         type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: UpdateText
       objectReference: {fileID: 0}
     - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
         type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: intData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: ede08614882af43478b80677f40b4f0c,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d74852b78f494c4ea29f8b12946f12e, type: 3}
---- !u!1 &1216283329 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6524797836119719619, guid: 9d74852b78f494c4ea29f8b12946f12e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1670518374}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1283131367 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6524797836119719619, guid: 9d74852b78f494c4ea29f8b12946f12e,
-    type: 3}
-  m_PrefabInstance: {fileID: 6524797835116558628}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1352219830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,18 +1398,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1471375935 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6524797836119719619, guid: 9d74852b78f494c4ea29f8b12946f12e,
-    type: 3}
-  m_PrefabInstance: {fileID: 993211131}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1476447848 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6524797836119719619, guid: 9d74852b78f494c4ea29f8b12946f12e,
-    type: 3}
-  m_PrefabInstance: {fileID: 215769449}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1595862233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1473,12 +1467,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 53.8, y: 405.7, z: 0}
---- !u!1 &1669331613 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6524797836119719619, guid: 9d74852b78f494c4ea29f8b12946f12e,
-    type: 3}
-  m_PrefabInstance: {fileID: 333293037}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1670518374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1550,22 +1538,28 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1216283329}
-    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
-        type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
-        type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
       objectReference: {fileID: 1876512223}
     - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
         type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: UpdateText
       objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: intData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: ede08614882af43478b80677f40b4f0c,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d74852b78f494c4ea29f8b12946f12e, type: 3}
 --- !u!1 &1876512219
@@ -2034,21 +2028,27 @@ PrefabInstance:
         type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 1283131367}
-    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
-        type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: SetActive
-      objectReference: {fileID: 0}
-    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
-        type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
       objectReference: {fileID: 1876512223}
     - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
         type: 3}
-      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
       value: UpdateText
       objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: intData, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6524797836119719628, guid: 9d74852b78f494c4ea29f8b12946f12e,
+        type: 3}
+      propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 11400000, guid: ede08614882af43478b80677f40b4f0c,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d74852b78f494c4ea29f8b12946f12e, type: 3}
