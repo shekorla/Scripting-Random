@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="scripts" t="Include">
           <e p="bullet.cs" t="Include" />
+          <e p="Checkpoints.cs" t="Include" />
           <e p="classScripts" t="Include">
             <e p="applyForce.cs" t="Include" />
             <e p="catClass.cs" t="Include" />
@@ -16,13 +17,13 @@
               <e p="clothesData.cs" t="Include" />
               <e p="FloatData.cs" t="Include" />
               <e p="gameArtData.cs" t="Include" />
+              <e p="intData.cs" t="Include" />
               <e p="playerData.cs" t="Include" />
               <e p="weaponData.cs" t="Include" />
             </e>
             <e p="dogClass.cs" t="Include" />
             <e p="fruit.cs" t="Include" />
             <e p="ifStatements.cs" t="Include" />
-            <e p="intData.cs" t="Include" />
             <e p="monoEvents.cs" t="Include" />
             <e p="mouseEvents.cs" t="Include" />
             <e p="movement.cs" t="Include" />
@@ -35,6 +36,7 @@
           <e p="enemyAction.cs" t="Include" />
           <e p="fire.cs" t="Include" />
           <e p="functionsHome.cs" t="Include" />
+          <e p="HexEnemy.cs" t="Include" />
           <e p="homeTriggerEvents.cs" t="Include" />
           <e p="player.cs" t="Include" />
           <e p="playerDataHome.cs" t="Include" />

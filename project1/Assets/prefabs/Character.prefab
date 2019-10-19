@@ -143,6 +143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gravity: 9.81
-  jumpSpeed: 75
-  speed: 10
+  jumpSpeed: 80
+  speed: 15
   jumpCountMax: 2

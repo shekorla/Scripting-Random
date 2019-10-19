@@ -12,16 +12,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/Checkpoints.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/fruit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/UIimageController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/functionsHome.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/fire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/mouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/HexEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/bullet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/intData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/particleControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/UITextControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/enemyAction.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,7 +52,6 @@
         <option value="$PROJECT_DIR$/Assets/scripts/mouse.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/fire.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/bullet.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/classScripts/movement.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/ifStatements.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/fruit.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/applyForce.cs" />
@@ -74,6 +75,9 @@
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/clothesData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/playerData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/CM controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/HexEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/classScripts/movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/Checkpoints.cs" />
       </list>
     </option>
   </component>
@@ -158,6 +162,7 @@
       <workItem from="1570739708230" duration="3940000" />
       <workItem from="1571171253238" duration="3269000" />
       <workItem from="1571342319873" duration="932000" />
+      <workItem from="1571520233294" duration="2474000" />
     </task>
     <servers />
   </component>

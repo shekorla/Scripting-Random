@@ -1,5 +1,5 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
+
 [RequireComponent(typeof(CharacterController))]
 public class movement : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class movement : MonoBehaviour
     public int jumpCountMax;
     private void Start()
     {
-        controller = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>(); 
     }
 
     void Update()
