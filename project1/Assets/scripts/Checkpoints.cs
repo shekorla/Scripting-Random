@@ -6,22 +6,19 @@ using UnityEngine.Events;
 public class Checkpoints : MonoBehaviour
 {
     public GameObject player;
+    public CharacterController pChara;
     public Vector3 checkpoint;
     public UnityEvent death;
-    public playerData pData;
-    private void FindPlayer(GameObject thisOne)
-    {
-        player = thisOne;
-        print("now my child");
-    }
     private void Start()
     {
         checkpoint=Vector3.zero;
-        pData.instanceAction = FindPlayer;
+        player=GameObject.FindWithTag("Player");
+        pChara = player.GetComponent<CharacterController>();
 
     }
     public void YouDied()
     {
+        pChara.transform.position = checkpoint;
         player.transform.position=checkpoint;
         death.Invoke();
     }

@@ -1326,7 +1326,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  pData: {fileID: 11400000, guid: b724c5050cb896d44a4a01f76698c361, type: 2}
 --- !u!65 &465236949
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2964,8 +2963,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883433616}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 177.21, y: -19.22, z: 0}
-  m_LocalScale: {x: 23.78, y: 3.088, z: 1.13}
+  m_LocalPosition: {x: 70.14, y: -19.22, z: 0}
+  m_LocalScale: {x: 237.8, y: 3.088, z: 1.13}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -6258,7 +6257,7 @@ Transform:
   m_Children:
   - {fileID: 1994273228}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1741201314
 MonoBehaviour:
@@ -7041,7 +7040,7 @@ PrefabInstance:
     - target: {fileID: 2922216024686681189, guid: 9fd8f3d128f8e824698e7092de0cdf83,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2922216024686681189, guid: 9fd8f3d128f8e824698e7092de0cdf83,
         type: 3}
@@ -7833,7 +7832,7 @@ PrefabInstance:
     - target: {fileID: 2922216024686681189, guid: 9fd8f3d128f8e824698e7092de0cdf83,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2922216024686681189, guid: 9fd8f3d128f8e824698e7092de0cdf83,
         type: 3}
@@ -8077,7 +8076,7 @@ PrefabInstance:
     - target: {fileID: 2922216024686681189, guid: 9fd8f3d128f8e824698e7092de0cdf83,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2922216024686681189, guid: 9fd8f3d128f8e824698e7092de0cdf83,
         type: 3}
