@@ -31,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/scripts/bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/fire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/clothesData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/lists.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/GameArtCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/HexEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/Checkpoints.cs" root0="FORCE_HIGHLIGHTING" />
@@ -75,7 +76,6 @@
         <option value="$PROJECT_DIR$/Assets/scripts/playerDataHome.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/functions.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/functionsHome.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/gameArtData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/weaponData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/clothesData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/playerData.cs" />
@@ -86,6 +86,8 @@
         <option value="$PROJECT_DIR$/Assets/scripts/Checkpoints.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/CollectionData.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/lists.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/gameArtData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/GameArtCollection.cs" />
       </list>
     </option>
@@ -173,6 +175,7 @@
       <workItem from="1571342319873" duration="932000" />
       <workItem from="1571520233294" duration="3853000" />
       <workItem from="1571775972123" duration="4747000" />
+      <workItem from="1571949103128" duration="4284000" />
     </task>
     <servers />
   </component>
@@ -251,6 +254,7 @@
     <state x="327" y="193" key="run.anything.popup" />
     <state x="327" y="193" key="run.anything.popup/2736.1824" />
     <state x="357" y="193" width="672" height="678" key="search.everywhere.popup" />
+    <state x="357" y="193" width="672" height="678" key="search.everywhere.popup/1920.1080" />
     <state x="357" y="193" width="672" height="678" key="search.everywhere.popup/2736.1824" />
   </component>
   <component name="XDebuggerManager">

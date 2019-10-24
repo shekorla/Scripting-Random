@@ -19,6 +19,7 @@
               <e p="GameArtCollection.cs" t="Include" />
               <e p="gameArtData.cs" t="Include" />
               <e p="intData.cs" t="Include" />
+              <e p="lists.cs" t="Include" />
               <e p="playerData.cs" t="Include" />
               <e p="weaponData.cs" t="Include" />
             </e>
