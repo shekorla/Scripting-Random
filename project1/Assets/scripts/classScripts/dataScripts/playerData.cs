@@ -6,6 +6,8 @@ using UnityEngine.Events;
 public class playerData : gameArtData
 {
     public UnityAction<GameObject> instanceAction;
+    public UnityEvent onRunEve;
+    
     public FloatData health;
     public List<weaponData> weapons;
     public clothesData shirt, pants;
@@ -17,5 +19,10 @@ public class playerData : gameArtData
        playerSprite.sprite = sprite;
        playerSprite.color = spriteColor;
        instanceAction(newPlayer);
+    }
+
+    public void Run()
+    {
+        onRunEve.Invoke();
     }
 }
