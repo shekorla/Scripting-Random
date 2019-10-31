@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10847020\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\10847020\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_project1.-86852965.00" t="ExcludeRecursive" />
-    <e p="E:\uvu2019fall\scripting\repos\Scripting-Random\project1" t="IncludeRecursive">
+    <e p="C:\Users\pinkp\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\pinkp\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_project1.748890578.00" t="ExcludeRecursive" />
+    <e p="C:\Users\pinkp\OneDrive\Documents\gitHubRepos\Scripting-Random\project1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="scripts" t="Include">
@@ -39,6 +39,7 @@
             <e p="UIimageController.cs" t="Include" />
             <e p="UITextControl.cs" t="Include" />
           </e>
+          <e p="CurrentWeapon.cs" t="Include" />
           <e p="enemyAction.cs" t="Include" />
           <e p="fire.cs" t="Include" />
           <e p="functionsHome.cs" t="Include" />
@@ -46,6 +47,7 @@
           <e p="homeTriggerEvents.cs" t="Include" />
           <e p="player.cs" t="Include" />
           <e p="playerDataHome.cs" t="Include" />
+          <e p="WeaponHandle.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
