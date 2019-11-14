@@ -13,4 +13,9 @@ public class intData : ScriptableObject
     {
         value = 0;
     }
+
+    public void setValue(int newNumb)
+    {
+        value = newNumb;
+    }
 }

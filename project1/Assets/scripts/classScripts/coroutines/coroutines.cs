@@ -36,4 +36,9 @@ public class coroutines : MonoBehaviour
         endEvent.Invoke();
     }
 
+    public void ResetCount(int reset)
+    {
+        counter = reset;
+    }
+
 }
