@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class coroutineClass : MonoBehaviour
 {
@@ -11,7 +12,13 @@ public class coroutineClass : MonoBehaviour
     private WaitForSeconds wfsObj;
     public float seconds=1;
     public intData index;
-    
+    public UnityEvent textEvent;
+
+    private void Start()
+    {
+        index.value = 10;
+    }
+
     public void Run()
     {
         wfsObj=new WaitForSeconds(seconds);
@@ -22,7 +29,7 @@ public class coroutineClass : MonoBehaviour
     {
         while (index.value>0)
         {
-            Debug.Log(index.value);
+            textEvent.Invoke();
             index.value--;
             sprite.color = list.colorList[colorNum];
             if (colorNum<9)
@@ -33,9 +40,7 @@ public class coroutineClass : MonoBehaviour
             {
                 colorNum = 0;
             }
+            yield return wfsObj;
         }
-        yield return wfsObj;
     }
-//hw write a new script that will display the index as a ui text obj and update. visible count down.
-    
 }
