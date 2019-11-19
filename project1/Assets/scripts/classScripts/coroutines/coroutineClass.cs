@@ -27,7 +27,7 @@ public class coroutineClass : MonoBehaviour
     
     IEnumerator OnRun()
     {
-        while (index.value>0)
+        while (index.value>=0)
         {
             textEvent.Invoke();
             index.value--;
