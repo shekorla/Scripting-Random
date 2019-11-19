@@ -56,6 +56,7 @@
           <e p="homeTriggerEvents.cs" t="Include" />
           <e p="player.cs" t="Include" />
           <e p="playerDataHome.cs" t="Include" />
+          <e p="topdownWeapon.cs" t="Include" />
           <e p="TopPlrHandle.cs" t="Include" />
           <e p="WeaponHandle.cs" t="Include" />
         </e>

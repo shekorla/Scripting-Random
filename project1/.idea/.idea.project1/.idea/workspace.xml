@@ -27,6 +27,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/GameArtCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/applyForce.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/homeTriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/topdownWeapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/playerDataHome.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/ifStatements.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/monoEvents.cs" root0="FORCE_HIGHLIGHTING" />
@@ -53,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/scripts/enemyAction.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/mouse.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/fire.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/bullet.cs" />
@@ -104,6 +104,7 @@
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/change colors.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/ColorColl.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/coroutines/coroutineClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/topdownWeapon.cs" />
       </list>
     </option>
   </component>
@@ -201,6 +202,7 @@
       <workItem from="1573707436631" duration="684000" />
       <workItem from="1573767764927" duration="3722000" />
       <workItem from="1574024911145" duration="921000" />
+      <workItem from="1574127681987" duration="4001000" />
     </task>
     <servers />
   </component>

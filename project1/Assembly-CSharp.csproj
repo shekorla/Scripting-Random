@@ -98,6 +98,7 @@
     <Compile Include="Assets\scripts\homeTriggerEvents.cs" />
     <Compile Include="Assets\scripts\player.cs" />
     <Compile Include="Assets\scripts\playerDataHome.cs" />
+    <Compile Include="Assets\scripts\topdownWeapon.cs" />
     <Compile Include="Assets\scripts\TopPlrHandle.cs" />
     <Compile Include="Assets\scripts\WeaponHandle.cs" />
     <Reference Include="Cinemachine">
