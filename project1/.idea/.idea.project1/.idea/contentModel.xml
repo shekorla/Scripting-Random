@@ -63,6 +63,7 @@
           <e p="TopPlrHandle.cs" t="Include" />
           <e p="WeaponHandle.cs" t="Include" />
         </e>
+        <e p="StatesBehavior.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

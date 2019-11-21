@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\animation\ButtonInput.cs" />
+    <Compile Include="Assets\animation\StatesBehavior.cs" />
     <Compile Include="Assets\scripts\bullet.cs" />
     <Compile Include="Assets\scripts\Checkpoints.cs" />
     <Compile Include="Assets\scripts\classScripts\AI\AiNav.cs" />
