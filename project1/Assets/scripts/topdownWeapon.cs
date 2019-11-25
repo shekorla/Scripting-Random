@@ -7,7 +7,8 @@ public class topdownWeapon : MonoBehaviour
     public GameObject player;
     public int rotTimeReset;
     public bool direction;//left is true, right is false
-    public UnityEvent callSpinEve;
+    public UnityEvent callSpinEve, spinStartEve,spinStopEve;
+    public SpriteRenderer selfSpr;
 
     private WaitForSeconds wfsObj;
     private int spinLeft, spinRight, rotTime;
@@ -41,6 +42,8 @@ public class topdownWeapon : MonoBehaviour
     {
         if (dontCrash==false)
         {
+            selfSpr.color=Color.red;
+            spinStartEve.Invoke();
             dontCrash = true;
             direction = true;
             rotTime = rotTimeReset;
@@ -66,6 +69,8 @@ public class topdownWeapon : MonoBehaviour
             }
             direction=true;
             dontCrash = false;
+            spinStopEve.Invoke();
+            selfSpr.color=Color.white;
         }
     }
 }
