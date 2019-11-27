@@ -12,6 +12,11 @@ public class FloatData : ScriptableObject
         value += amount;
     }
 
+    public void resetValue()
+    {
+        value = 1f;
+    }
+
     public void UpdateValueRange (float ammount)
     {
         if (value<= maxValue)

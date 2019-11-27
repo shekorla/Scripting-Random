@@ -46,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/scripts/tpDwnWepHit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/TopPlrHandle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/startBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/coroutines/coroutines.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/particleControl.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,8 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/scripts/classScripts/fruit.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/classScripts/applyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/playerData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/homeTriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/functions.cs" />
@@ -106,6 +105,8 @@
         <option value="$PROJECT_DIR$/Assets/scripts/topDownWepHit.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/topdownWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/tpDwnWepHit.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/classScripts/startBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/FloatData.cs" />
       </list>
     </option>
   </component>
@@ -207,6 +208,7 @@
       <workItem from="1574199859944" duration="1023000" />
       <workItem from="1574371798605" duration="2474000" />
       <workItem from="1574707110681" duration="1022000" />
+      <workItem from="1574885131998" duration="349000" />
     </task>
     <servers />
   </component>
