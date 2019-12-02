@@ -38,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/coroutines/coroutineClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/weaponData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/TwCheckpoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/classScripts/eNumSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/fire.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/player.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/scripts/playerData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/homeTriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/functions.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/intData.cs" />
@@ -80,7 +80,6 @@
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/lists.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/gameArtData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/GameArtCollection.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/Checkpoints.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/eNumSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/Debugger.cs" />
@@ -107,6 +106,8 @@
         <option value="$PROJECT_DIR$/Assets/scripts/tpDwnWepHit.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/startBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/Checkpoints.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/TwCheckpoint.cs" />
       </list>
     </option>
   </component>
@@ -209,6 +210,7 @@
       <workItem from="1574371798605" duration="2474000" />
       <workItem from="1574707110681" duration="1022000" />
       <workItem from="1574885131998" duration="349000" />
+      <workItem from="1575325994008" duration="450000" />
     </task>
     <servers />
   </component>

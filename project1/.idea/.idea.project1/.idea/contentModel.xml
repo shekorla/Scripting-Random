@@ -63,6 +63,7 @@
           <e p="topdownWeapon.cs" t="Include" />
           <e p="TopPlrHandle.cs" t="Include" />
           <e p="tpDwnWepHit.cs" t="Include" />
+          <e p="TwCheckpoint.cs" t="Include" />
           <e p="WeaponHandle.cs" t="Include" />
         </e>
       </e>
