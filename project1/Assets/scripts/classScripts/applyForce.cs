@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Collider))]
 public class applyForce : MonoBehaviour
 {
     private Rigidbody rb;
 
-    public Vector3 forces;
-    // Start is called before the first frame update
+    public Vector3Data forceDirection;
+    public float force = 3f;
     void Start()
     {
         rb= GetComponent<Rigidbody>();
@@ -17,6 +14,6 @@ public class applyForce : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        rb.AddForce(forces);
+        rb.AddForce(forceDirection.value*force);
     }
 }
