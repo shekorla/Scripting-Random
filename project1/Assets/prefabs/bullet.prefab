@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 9122187988359419090}
   - component: {fileID: 4591726448595925125}
   m_Layer: 0
-  m_Name: CoinSprite
+  m_Name: bullettSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

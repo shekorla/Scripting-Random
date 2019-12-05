@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Collider))]
 public class applyForce : MonoBehaviour
@@ -10,10 +11,6 @@ public class applyForce : MonoBehaviour
     void Start()
     {
         rb= GetComponent<Rigidbody>();
-    }
-
-    private void OnCollisionEnter(Collision other)
-    {
         rb.AddForce(forceDirection.value*force);
     }
 }

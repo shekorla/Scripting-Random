@@ -24,19 +24,6 @@
               <e p="coroutineClass.cs" t="Include" />
               <e p="coroutines.cs" t="Include" />
             </e>
-            <e p="dataScripts" t="Include">
-              <e p="clothesData.cs" t="Include" />
-              <e p="ColorColl.cs" t="Include" />
-              <e p="Debugger.cs" t="Include" />
-              <e p="FloatData.cs" t="Include" />
-              <e p="GameArtCollection.cs" t="Include" />
-              <e p="gameArtData.cs" t="Include" />
-              <e p="intData.cs" t="Include" />
-              <e p="lists.cs" t="Include" />
-              <e p="playerData.cs" t="Include" />
-              <e p="Vector3Data.cs" t="Include" />
-              <e p="weaponData.cs" t="Include" />
-            </e>
             <e p="debuggerHandeler.cs" t="Include" />
             <e p="dogClass.cs" t="Include" />
             <e p="eNumSwitch.cs" t="Include" />
@@ -48,7 +35,20 @@
             <e p="mouseEvents.cs" t="Include" />
             <e p="movement.cs" t="Include" />
             <e p="particleControl.cs" t="Include" />
-            <e p="playerHandeler.cs" t="Include" />
+            <e p="scriptableObjs" t="Include">
+              <e p="clothesData.cs" t="Include" />
+              <e p="ColorColl.cs" t="Include" />
+              <e p="Debugger.cs" t="Include" />
+              <e p="FloatData.cs" t="Include" />
+              <e p="GameArtCollection.cs" t="Include" />
+              <e p="gameArtData.cs" t="Include" />
+              <e p="intData.cs" t="Include" />
+              <e p="lists.cs" t="Include" />
+              <e p="playerData.cs" t="Include" />
+              <e p="playerHandeler.cs" t="Include" />
+              <e p="Vector3Data.cs" t="Include" />
+              <e p="weaponData.cs" t="Include" />
+            </e>
             <e p="selfDestruct.cs" t="Include" />
             <e p="startBehavior.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />

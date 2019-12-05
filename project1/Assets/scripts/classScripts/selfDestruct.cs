@@ -8,7 +8,7 @@ public class selfDestruct : MonoBehaviour
         Destroy(gameObject, delay);
     }
 
-    public void DestoryOnImpact()
+    public void DestoryOnImpact(playerData other)
     {
         Destroy(gameObject);
     }

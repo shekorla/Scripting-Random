@@ -138,6 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammo: {fileID: 6169339743141989977, guid: 0c511c0be7a0eeb40a021945525e0e2e, type: 3}
+  dontHitMe: {fileID: 11400000, guid: b724c5050cb896d44a4a01f76698c361, type: 2}
 --- !u!1 &5088115302170755886
 GameObject:
   m_ObjectHideFlags: 0
