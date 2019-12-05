@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\pinkp\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\pinkp\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_project1.748890578.00" t="ExcludeRecursive" />
-    <e p="C:\Users\pinkp\OneDrive\Documents\gitHubRepos\Scripting-Random\project1" t="IncludeRecursive">
+    <e p="C:\Users\10847020\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\10847020\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_project1.-86852965.00" t="ExcludeRecursive" />
+    <e p="E:\uvu2019fall\scripting\repos\Scripting-Random\project1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="animation" t="Include">
@@ -35,11 +35,14 @@
             <e p="mouseEvents.cs" t="Include" />
             <e p="movement.cs" t="Include" />
             <e p="particleControl.cs" t="Include" />
+            <e p="rapidFireWeapon.cs" t="Include" />
             <e p="scriptableObjs" t="Include">
               <e p="clothesData.cs" t="Include" />
               <e p="ColorColl.cs" t="Include" />
               <e p="Debugger.cs" t="Include" />
               <e p="FloatData.cs" t="Include" />
+              <e p="gameActHandle.cs" t="Include" />
+              <e p="gameAction.cs" t="Include" />
               <e p="GameArtCollection.cs" t="Include" />
               <e p="gameArtData.cs" t="Include" />
               <e p="intData.cs" t="Include" />
