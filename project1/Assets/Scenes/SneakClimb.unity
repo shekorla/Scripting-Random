@@ -1697,6 +1697,11 @@ PrefabInstance:
       propertyPath: jumpSpeed
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 5142967555442426272, guid: 705e8a61e2668e443bca38783b8a0ae3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 382541348388429564, guid: 705e8a61e2668e443bca38783b8a0ae3,
         type: 3}
       propertyPath: m_Sprite
@@ -1713,11 +1718,12 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 1.92
       objectReference: {fileID: 0}
-    - target: {fileID: 5142967555442426272, guid: 705e8a61e2668e443bca38783b8a0ae3,
+    - target: {fileID: 8955727152476227737, guid: 705e8a61e2668e443bca38783b8a0ae3,
         type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 5bbea38f57b542a4492609c594b20659,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 705e8a61e2668e443bca38783b8a0ae3, type: 3}
 --- !u!4 &822328169 stripped
