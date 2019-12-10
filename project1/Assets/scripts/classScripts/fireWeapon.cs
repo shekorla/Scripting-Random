@@ -1,18 +1,22 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class fireWeapon : MonoBehaviour
 {
     public applyForce ammo;
-    //public playerData dontHitMe;
+    public GameObject startSpot;
     
+
     public void fire()
+         {
+             if (Input.GetButtonDown("Fire1"))//fire 1 is your left mouse
+             {
+                 Instantiate(ammo,startSpot.transform.position,Quaternion.identity);
+             } 
+         }
+    public void RapidFire()
     {
-        if (Input.GetButtonDown("Fire1"))//fire 1 is your left mouse
-        {
-            Instantiate(ammo,transform.position,Quaternion.identity);
-        } 
+        Instantiate(ammo, startSpot.transform.position, Quaternion.identity);
+        Debug.Log(startSpot.transform.position);
     }
 }
-//notes about the final because this file is open: side scroller, if, esle, foreach, so basically make the sidescroller
-//nice enough to present.
-//class went over, to catch up use game action/handler to make them generic, and make firing work

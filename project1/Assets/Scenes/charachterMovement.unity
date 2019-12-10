@@ -1064,7 +1064,7 @@ PrefabInstance:
     - target: {fileID: 5155716066075324514, guid: 9f36d4db34b821147a67fb6c05c18949,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5155716066075324514, guid: 9f36d4db34b821147a67fb6c05c18949,
         type: 3}
@@ -1244,6 +1244,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  secEve:
+    m_PersistentCalls:
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!4 &583315066
@@ -2047,6 +2052,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1478597092}
   - component: {fileID: 1478597093}
+  - component: {fileID: 1478597095}
   - component: {fileID: 1478597094}
   m_Layer: 0
   m_Name: RapidFire
@@ -2094,6 +2100,38 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc34d6a9a30784e49990c1f1abe4127e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  holdtime: 0.1
+  gameActObj: {fileID: 11400000, guid: 7f7b1b7a1f2c1614a93dbac9a2d37cc7, type: 2}
+--- !u!114 &1478597095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478597091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce814c97dcc2dc34b85995082091572f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActObj: {fileID: 11400000, guid: 7f7b1b7a1f2c1614a93dbac9a2d37cc7, type: 2}
+  handlerEve:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 123116850522363740, guid: 2293941f954f21042b5ec02f5b05300a,
+          type: 3}
+        m_MethodName: callSecEve
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1595862233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2531,7 +2569,7 @@ Transform:
   m_Children:
   - {fileID: 503357934}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1959303560
 MonoBehaviour:
