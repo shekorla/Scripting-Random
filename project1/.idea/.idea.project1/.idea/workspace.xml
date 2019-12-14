@@ -85,7 +85,6 @@
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/intData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/change colors.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/ColorColl.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/classScripts/coroutines/coroutineClass.cs" />
         <option value="$PROJECT_DIR$/Assets/animation/ButtonInput.cs" />
         <option value="$PROJECT_DIR$/Assets/StatesBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/topDownWepHit.cs" />
@@ -104,6 +103,7 @@
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/scriptableObjs/gameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/fireWeapon.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/scriptableObjs/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/classScripts/coroutines/coroutineClass.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/OnOff.cs" />
       </list>
     </option>
@@ -214,6 +214,7 @@
       <workItem from="1575931845658" duration="3176000" />
       <workItem from="1576010112680" duration="673000" />
       <workItem from="1576352813648" duration="723000" />
+      <workItem from="1576354424706" duration="2731000" />
     </task>
     <servers />
   </component>

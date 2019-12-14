@@ -17,11 +17,11 @@ public class coroutineClass : MonoBehaviour
     private void Start()
     {
         index.value = 10;
+        wfsObj=new WaitForSeconds(seconds);
     }
 
     public void Run()
     {
-        wfsObj=new WaitForSeconds(seconds);
         StartCoroutine(OnRun());
     }
     
