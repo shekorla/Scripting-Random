@@ -2066,6 +2066,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 5bbea38f57b542a4492609c594b20659,
         type: 2}
+    - target: {fileID: 6013694487688367952, guid: 705e8a61e2668e443bca38783b8a0ae3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 705e8a61e2668e443bca38783b8a0ae3, type: 3}
 --- !u!4 &822328169 stripped
@@ -2074,6 +2079,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 822328168}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &822328170 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8058305686701809604, guid: 705e8a61e2668e443bca38783b8a0ae3,
+    type: 3}
+  m_PrefabInstance: {fileID: 822328168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &822328171 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 8058305686701809605, guid: 705e8a61e2668e443bca38783b8a0ae3,
+    type: 3}
+  m_PrefabInstance: {fileID: 822328168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &822328172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822328170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afafea92283f75e4c87f06b298f56066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dead:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1934910626}
+        m_MethodName: updateImage
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 971cfe08a485a8340ac3a1fd4b9ffdd3,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  cont: {fileID: 822328171}
+  currentCK: {x: 0, y: 0, z: 0}
+  startPoint: {fileID: 11400000, guid: 1f2c1d21094553e45b8c4870aba81aef, type: 2}
+  health: {fileID: 11400000, guid: 971cfe08a485a8340ac3a1fd4b9ffdd3, type: 2}
 --- !u!1 &840932599
 GameObject:
   m_ObjectHideFlags: 0

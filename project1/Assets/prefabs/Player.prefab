@@ -94,6 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a6866ec63de613429ee84af4ca26492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data: {fileID: 0}
 --- !u!1 &5142967555442426272
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,6 +215,7 @@ GameObject:
   - component: {fileID: 8058305686701809656}
   - component: {fileID: 8058305686701809605}
   - component: {fileID: 8058305686701809657}
+  - component: {fileID: 6013694487688367952}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -270,3 +272,24 @@ MonoBehaviour:
   jumpSpeed: 75
   speed: 10
   jumpCountMax: 2
+--- !u!114 &6013694487688367952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8058305686701809604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afafea92283f75e4c87f06b298f56066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dead:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  cont: {fileID: 0}
+  currentCK: {x: 0, y: 0, z: 0}
+  startPoint: {fileID: 0}
+  health: {fileID: 0}

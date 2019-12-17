@@ -93,7 +93,6 @@
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/startBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/dataScripts/FloatData.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/Checkpoints.cs" />
-        <option value="$PROJECT_DIR$/Assets/scripts/TwCheckpoint.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/flip.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/applyForce.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/selfDestruct.cs" />
@@ -105,6 +104,7 @@
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/scriptableObjs/Vector3Data.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/classScripts/coroutines/coroutineClass.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/OnOff.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/TwCheckpoint.cs" />
       </list>
     </option>
   </component>
@@ -215,6 +215,7 @@
       <workItem from="1576010112680" duration="673000" />
       <workItem from="1576352813648" duration="723000" />
       <workItem from="1576354424706" duration="2731000" />
+      <workItem from="1576610096398" duration="1175000" />
     </task>
     <servers />
   </component>

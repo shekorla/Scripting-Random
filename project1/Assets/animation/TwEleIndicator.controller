@@ -34,6 +34,86 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!114 &114135731112196772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb49c4e9602df64a8cd5ff60b0fb306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEnterEve:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6013694487688367952, guid: 705e8a61e2668e443bca38783b8a0ae3,
+          type: 3}
+        m_MethodName: UpdateCK
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 1f2c1d21094553e45b8c4870aba81aef,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Vector3Data, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  stateUpdateEve:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  stateExitEve:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114305559697203534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb49c4e9602df64a8cd5ff60b0fb306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEnterEve:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6013694487688367952, guid: 705e8a61e2668e443bca38783b8a0ae3,
+          type: 3}
+        m_MethodName: UpdateCK
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 4cf88c5c9fbbca94aa1b8d5b3b3933f1,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Vector3Data, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  stateUpdateEve:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  stateExitEve:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &114306509600707802
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -48,7 +128,100 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startEnterEve:
     m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6013694487688367952, guid: 705e8a61e2668e443bca38783b8a0ae3,
+          type: 3}
+        m_MethodName: UpdateCK
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 17255c2abfa5fef4e8dcde33fb03e8a3,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Vector3Data, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  stateUpdateEve:
+    m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  stateExitEve:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114630495865384706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb49c4e9602df64a8cd5ff60b0fb306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEnterEve:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6013694487688367952, guid: 705e8a61e2668e443bca38783b8a0ae3,
+          type: 3}
+        m_MethodName: UpdateCK
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: ac8c0664929cb0742aae4b2fd7394677,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Vector3Data, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  stateUpdateEve:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  stateExitEve:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114761159026309658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebb49c4e9602df64a8cd5ff60b0fb306, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEnterEve:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6013694487688367952, guid: 705e8a61e2668e443bca38783b8a0ae3,
+          type: 3}
+        m_MethodName: UpdateCK
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 62bc91bf2129d844b9a6477e7604f15b,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: Vector3Data, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   stateUpdateEve:
@@ -273,7 +446,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101321232584738476}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114135731112196772}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -300,7 +474,8 @@ AnimatorState:
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101155648035154344}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114305559697203534}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -328,7 +503,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: 1101688043078676684}
   - {fileID: 1101647631184889136}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114630495865384706}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -356,7 +532,8 @@ AnimatorState:
   m_Transitions:
   - {fileID: 1101383551912219340}
   - {fileID: 1101982249306349524}
-  m_StateMachineBehaviours: []
+  m_StateMachineBehaviours:
+  - {fileID: 114761159026309658}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
