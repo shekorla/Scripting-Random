@@ -1,0 +1,11 @@
+years in office, last name, party affiliation
+2,kennedy,democratic
+6,johnson,democratic
+5,nixon,republican
+3,ford,republican
+4,carter,democratic
+8,reagan,republican
+4,bush,republican
+8,clinton,democratic
+8,bush,republican
+3,obama,democratic

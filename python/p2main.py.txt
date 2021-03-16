@@ -1,0 +1,41 @@
+totalGold= int (input ("How much gold did they steal? "))	#get the amount of gold/limit to whole number
+totalCrew=int(input("How many crew members are there? "))	#get the number of crew
+gruntCrew= int(totalCrew-2)				#number of pirates not including jack and gibbs
+townGold=int(gruntCrew*3)				#each pirate gets 3
+totalGold=totalGold- townGold				#town gold has been given out and cannot be stolen by gibbs or jack
+rumFund= float(0)					#establish a number to keep a running total
+captainsShare= float(0)					#instansiate a varible
+captainsShare=float(totalGold*.12)			#captain takes 12% early
+    #rum fund matn
+capDec=float(0)         					#how much of jacks share is a decimile that goes to the rum fund
+capDec=captainsShare-int(captainsShare)      			#calulate that
+rumFund=rumFund+capDec          				#update the rum fund total
+captainsShare=captainsShare-capDec            			#remove the amount that went to the rumfund from his total
+print("Captian Jack's inital take:", int(captainsShare))	#jacks 12% take printed as an int because it looks nicer
+totalGold=totalGold-captainsShare-capDec			#update the total gold left after jack takes his share 
+gibbsShare=float(totalGold*.08)					#he takes 8% from what is left
+    #More rum fund math.
+gibDec=float(0)        					#how much of gibbs share is a decimile that goes to the rum fund
+gibDec=gibbsShare-int(gibbsShare)       		#calulate that
+rumFund=rumFund+gibDec         				#update the rum fund total
+gibbsShare=gibbsShare-gibDec            		#remove the amount that went to the rumfund from his total
+print("Mr. Gibbs inital take:",int(gibbsShare))		#gibbs 8%
+totalGold=totalGold-gibbsShare-gibDec			#update total
+totalGold=totalGold+ townGold	 			#just because they spent it last night doesnt mean they didnt get it
+print("Crews total share:", int(totalGold))		#the share that is left to the crew
+totalGold=totalGold-townGold 				#it was taken out before it was divided so it cant be part of the rum fund math
+indivTake=float(0)					#establish a varible for how much each individual pirate takes.
+indivDec=float(0)          				#after the gold is divided how much goes to the rum fund
+indivTake=totalGold/totalCrew 				#how much gold each crew member gets
+indivDec=indivTake-int(indivTake)           		#calulate the amount of dec per share
+indivTake=indivTake-indivDec
+gibbsShare=gibbsShare+indivTake       		#theif still gets a share of the total
+captainsShare=captainsShare+indivTake        	#theif still gets a share of the total
+    #rum math number 3
+rumFund=rumFund+(indivDec)        				#final rum total
+    #print to get points
+print("Captian Jack's total share:",int(captainsShare))		#jacks final total
+print("Mr. Gibbs total share:",int(gibbsShare))			#gibbs final total
+indivTake=indivTake+3 						#they still got paid the town gold even if it got taken out for rum fund math
+print("Each crewmembers individual pay:",int(indivTake))	#for my own curiousity how much is each man taking home
+print("The rum fund:",int(rumFund))				#final total of the rum fund

@@ -1,0 +1,24 @@
+import math
+yourName = str(input("What is your name? " ))
+iCName = str(input("what is your favorite ice cream? " ))
+
+tubHeight=float (11)
+tubRadi=float (4.75)
+tubVol=float 
+tubRadiSq=int
+tubRadiSq=tubRadi*tubRadi
+tubVol = math.pi*tubRadiSq*tubHeight
+
+scoopRadi=int (1)
+scoopVol = int 
+scoopRadiCube=int
+scoopRadiCube=scoopRadi*scoopRadi*scoopRadi
+scoopVol= 4/3*math.pi*scoopRadiCube
+
+scoopNum=int 
+scoopNum= tubVol/scoopVol
+print ("Name: ", yourName)
+print ("Flavor: ", iCName)
+print ("Tub Volume: ", tubVol)
+print ("Volume of Scoops: ", scoopVol)
+print ("Number of Servings: ", scoopNum)
